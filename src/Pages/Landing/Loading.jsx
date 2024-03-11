@@ -17,6 +17,11 @@ const Loading = () => {
       <DecoLeft />
       <DecoRight />
       <button onClick={() => navigate("/menu")} className="central-section">
+        <span className="puls" style={{ animationDelay: "0.75s" }}></span>
+        <span className="puls" style={{ animationDelay: "1.5s" }}></span>
+        <span className="puls" style={{ animationDelay: "2.25s" }}></span>
+        <span className="puls" style={{ animationDelay: "3s" }}></span>
+
         <img src={logo} alt="logo" style={{ marginBottom: "1rem" }} />
         <p
           style={{

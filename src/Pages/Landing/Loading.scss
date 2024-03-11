@@ -6,5 +6,31 @@
   align-items: center;
   flex-direction: column;
   color: white;
+  border-radius: 50%;
+  padding: 3rem 2rem;
+  position: relative;
   cursor: pointer;
+}
+
+.puls {
+  box-sizing: content-box;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border-radius: inherit;
+  animation: animatePuls 3s ease-out infinite;
+  border: 0rem solid rgba(255, 255, 255, 0.2);
+  z-index: 0;
+}
+
+@keyframes animatePuls {
+  100% {
+    // transform: scale(2);
+    // border-width: 3rem;
+    // border-color: aliceblue;
+    border-width: 6rem;
+
+    opacity: 0;
+  }
 }

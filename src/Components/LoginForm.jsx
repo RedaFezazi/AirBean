@@ -16,7 +16,6 @@ const LoginForm = () => {
   const handelSubmit = async (e) => {
     e.preventDefault();
     try {
-      console.log(name, email);
       const response = await axios.post(
         "https://airbean-api-xjlcn.ondigitalocean.app/api/user/login",
         {
@@ -32,7 +31,7 @@ const LoginForm = () => {
         console.log(response.data.token);
       }
     } catch (error) {
-      console.log(error);
+      console.error(error);
     }
   };
   return (
