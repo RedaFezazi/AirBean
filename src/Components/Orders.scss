@@ -3,7 +3,7 @@
   background-color: rgba(0, 0, 0, 0.53);
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   display: flex;
@@ -11,10 +11,10 @@
   align-items: flex-start;
 
   .orders--center {
-    position: absolute;
-    margin: 5rem auto;
+    position: fixed;
+    margin: 0 auto;
     right: 1rem;
-    top: 0;
+    top: 5rem;
     width: calc(100% - 2rem);
     display: flex;
     justify-content: center;
@@ -22,7 +22,14 @@
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     border-radius: 0.5rem;
-
+    .cartPointer {
+      width: 1rem;
+      height: 1rem;
+      position: absolute;
+      background-color: black;
+      top: -2rem;
+      right: 2rem;
+    }
     h1 {
       margin: 2rem;
       font-family: PT Serif;

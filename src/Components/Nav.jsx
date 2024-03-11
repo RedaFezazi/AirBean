@@ -24,7 +24,7 @@ const Nav = () => {
     <>
       <aside onClick={setIsNav} className="burgerMenu">
         {isNav ? (
-          <LiaTimesSolid style={{ fontSize: "2rem" }} />
+          <LiaTimesSolid style={{ fontSize: "2rem", color: "black" }} />
         ) : (
           <img src={burgerMenu} alt="Menu button" />
         )}
