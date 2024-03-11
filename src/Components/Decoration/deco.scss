@@ -1,0 +1,27 @@
+/* Define the animation */
+@keyframes leftToRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Apply the animation to images with alt="decoration" */
+img[alt="decorationLeft"] {
+  animation: leftToRight 2s ease-out forwards;
+}
+
+img[alt="decoration"] {
+  animation: rightToLeft 2s ease-out forwards;
+}

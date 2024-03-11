@@ -1,0 +1,43 @@
+@import "../styles/variables.scss";
+
+.private__profile {
+  h1 {
+    font-family: PT Serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .private__email {
+    font-family: Work Sans;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #ffffffcc;
+  }
+  .history__list {
+    margin-top: 4rem;
+
+    .history__total {
+      display: flex;
+      justify-content: space-between;
+      color: #ffffffcc;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+    .history__h2 {
+      font-size: 1.8rem;
+      text-align: left;
+      margin-bottom: 1rem;
+      line-height: 26.4px;
+    }
+    .history__li {
+      display: flex;
+      column-gap: 10rem;
+      border-bottom: 1px solid #ffffff80;
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+
+      font-family: Work Sans;
+      color: #ffffff80;
+    }
+  }
+}
