@@ -39,7 +39,7 @@ const Menu = () => {
         <h1
           style={{
             fontFamily: "PT Serif",
-            fontSize: "2.625rem",
+            fontSize: "2.425rem",
             fontWeight: "700",
             marginBottom: "2rem",
           }}

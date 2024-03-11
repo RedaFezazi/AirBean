@@ -8,6 +8,7 @@
   font-family: Work Sans;
   text-align: center;
   color: white;
+  padding: 2rem 2rem;
 
   .status__orderNumber {
     font-size: 1.2rem;
@@ -23,10 +24,9 @@
   .status__article {
     .status__header {
       font-family: PT Serif;
-      font-size: 2.45rem;
+      font-size: 2.425rem;
       font-weight: 700;
-      margin-bottom: 2rem;
-      padding: 0 2rem;
+      margin: 0 0 2rem 0;
     }
     .article__para {
       font-size: 1.5rem;
@@ -60,7 +60,7 @@
     padding: 0.7rem 2.5rem;
     border-radius: 30px;
     border-color: transparent;
-    margin: 2rem 3rem;
+    margin: 1rem 3rem;
     cursor: pointer;
   }
 }

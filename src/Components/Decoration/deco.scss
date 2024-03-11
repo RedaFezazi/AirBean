@@ -17,11 +17,12 @@
   }
 }
 
-/* Apply the animation to images with alt="decoration" */
 img[alt="decorationLeft"] {
   animation: leftToRight 2s ease-out forwards;
+  z-index: 999;
 }
 
 img[alt="decoration"] {
   animation: rightToLeft 2s ease-out forwards;
+  z-index: 999;
 }
