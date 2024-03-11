@@ -1,6 +1,7 @@
 @import "../styles/variables.scss";
 
 .private__profile {
+  width: 100%;
   h1 {
     font-family: PT Serif;
     font-size: 1.8rem;
@@ -15,6 +16,7 @@
   }
   .history__list {
     margin-top: 4rem;
+    width: 100%;
 
     .history__total {
       display: flex;
@@ -31,11 +33,10 @@
     }
     .history__li {
       display: flex;
-      column-gap: 10rem;
       border-bottom: 1px solid #ffffff80;
       margin-bottom: 1rem;
       padding-bottom: 1rem;
-
+      justify-content: space-between;
       font-family: Work Sans;
       color: #ffffff80;
     }
