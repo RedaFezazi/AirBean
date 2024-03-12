@@ -1,10 +1,12 @@
-import blackLeafRight from "../../assets/decorations/blackLeafRight.svg";
-import orangePlantRight from "../../assets/decorations/orangePlantRight.svg";
-import purplePlantRight from "../../assets/decorations/purplePlantRight.svg";
-import thickBlueLeafRight from "../../assets/decorations/thickBlueLeafRight.svg";
-import thinBlueLeafRight from "../../assets/decorations/thinBlueLeafRight.svg";
-import whiteLeafRight from "../../assets/decorations/whiteLeafRight.svg";
-import whitePlantRight from "../../assets/decorations/whitePlantRight.svg";
+import blackLeafRight from "../../assets/decorations/decoLeftRight/blackLeafRight.svg";
+import orangePlantRight from "../../assets/decorations/decoLeftRight/orangePlantRight.svg";
+import purplePlantRight from "../../assets/decorations/decoLeftRight/purplePlantRight.svg";
+import thickBlueLeafRight from "../../assets/decorations/decoLeftRight/thickBlueLeafRight.svg";
+import thinBlueLeafRight from "../../assets/decorations/decoLeftRight/thinBlueLeafRight.svg";
+import whiteLeafRight from "../../assets/decorations/decoLeftRight/whiteLeafRight.svg";
+import whitePlantRight from "../../assets/decorations/decoLeftRight/whitePlantRight.svg";
+
+import "./decoTopBottom.scss";
 
 const DecoRight = () => {
   return (

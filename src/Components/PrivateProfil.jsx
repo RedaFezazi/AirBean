@@ -34,7 +34,11 @@ const PrivateProfil = () => {
   }, []);
   return (
     <section className="private__profile">
-      <img src={profilePic} alt="profile Picture" />
+      <img
+        src={profilePic}
+        className="private__picture"
+        alt="profile Picture"
+      />
       <h1>{name}</h1>
       <p className="private__email">{email}</p>
       <ul className="history__list">

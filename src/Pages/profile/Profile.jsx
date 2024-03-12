@@ -5,6 +5,7 @@ import LoginForm from "../../Components/LoginForm";
 import useCart from "../../Store/useCart";
 import PrivateProfil from "../../Components/PrivateProfil";
 import { useNavigate } from "react-router-dom";
+import DecoTop from "../../Components/Decoration/DecoTop";
 
 const Profile = () => {
   const { isSignUP, token, setToken, setOrderHistory } = useCart();
@@ -12,6 +13,10 @@ const Profile = () => {
 
   return (
     <main className="profile">
+      {token ? <PrivateProfil /> : isSignUP ? <SignUpForm /> : <LoginForm />}
+
+      <DecoTop />
+
       <Nav />
       {token ? (
         <p
@@ -26,7 +31,6 @@ const Profile = () => {
           Logga ut
         </p>
       ) : null}
-      {token ? <PrivateProfil /> : isSignUP ? <SignUpForm /> : <LoginForm />}
     </main>
   );
 };

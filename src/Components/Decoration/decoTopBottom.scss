@@ -1,0 +1,26 @@
+/* Define the animation */
+@keyframes leftToRight {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+img[alt="decorationTop"] {
+  animation: leftToRight 2s ease-out forwards;
+}
+
+img[alt="decorationBottom"] {
+  animation: rightToLeft 2s ease-out forwards;
+}

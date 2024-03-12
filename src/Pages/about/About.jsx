@@ -1,10 +1,14 @@
 import "./About.scss";
 import ceoImg from "../../assets/CEO.png";
 import Nav from "../../Components/Nav";
+import DecoTop from "../../Components/Decoration/DecoTop";
+import DecoBottom from "../../Components/Decoration/DecoBottom";
 
 const About = () => {
   return (
     <main className="about">
+      <DecoTop />
+      <DecoBottom />
       <h1>Vårt kaffe</h1>
       <p className="about__para--bold">
         Pumpkin spice mug, barista cup, sit macchiato, kopi-luwak, doppio,

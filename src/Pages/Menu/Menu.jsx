@@ -1,11 +1,13 @@
 import { useEffect } from "react";
 import cartLogo from "../../assets/cartLogo.svg";
 
-import plusBtn from "../../assets/decorations/plusBtn.svg";
+import plusBtn from "../../assets/plusBtn.svg";
 import "./Menu.scss";
 import useCart from "../../Store/useCart";
 import Orders from "../../Components/Orders";
 import Nav from "../../Components/Nav";
+import DecoTop from "../../Components/Decoration/DecoTop";
+import DecoBottom from "../../Components/Decoration/DecoBottom";
 
 const Menu = () => {
   const { cart, addToCart, menu, fetchMenu, setIsOrders, isOrders, isNav } =
@@ -29,6 +31,8 @@ const Menu = () => {
         flexDirection: "column",
       }}
     >
+      <DecoTop />
+      <DecoBottom />
       {isNav ? null : (
         <aside onClick={setIsOrders} className="cartLogo">
           <img src={cartLogo} alt="cart" />

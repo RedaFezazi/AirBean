@@ -1,12 +1,12 @@
-import blackLeaf from "../../assets/decorations/blackLeaf.svg";
-import orangePlant from "../../assets/decorations/orangePlant.svg";
-import purplePlant from "../../assets/decorations/purplePlant.svg";
-import thickBlueLeaf from "../../assets/decorations/thickBlueLeaf.svg";
-import thinBlueLeaf from "../../assets/decorations/thinBlueLeaf.svg";
-import whiteLeaf from "../../assets/decorations/whiteLeaf.svg";
-import whitePlant from "../../assets/decorations/whitePlant.svg";
+import blackLeaf from "../../assets/decorations/decoLeftRight/blackLeaf.svg";
+import orangePlant from "../../assets/decorations/decoLeftRight/orangePlant.svg";
+import purplePlant from "../../assets/decorations/decoLeftRight/purplePlant.svg";
+import thickBlueLeaf from "../../assets/decorations/decoLeftRight/thickBlueLeaf.svg";
+import thinBlueLeaf from "../../assets/decorations/decoLeftRight/thinBlueLeaf.svg";
+import whiteLeaf from "../../assets/decorations/decoLeftRight/whiteLeaf.svg";
+import whitePlant from "../../assets/decorations/decoLeftRight/whitePlant.svg";
 
-import "./deco.scss";
+import "./decoTopBottom.scss";
 
 const DecoLeft = () => {
   return (
