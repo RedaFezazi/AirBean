@@ -68,8 +68,10 @@ const useCart = create((set) => ({
   setNoOrderMsg: (orderMsg) => set(() => ({ noOrderMsg: orderMsg })),
 
   // Token State
-  token: "",
-  setToken: (token) => set(() => ({ token: token })),
+  token: localStorage.getItem("token") || "",
+  setToken: (token) => {
+    set(() => ({ token: token }));
+  },
 
   // Order History
   orderHistory: [],

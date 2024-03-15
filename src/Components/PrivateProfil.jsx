@@ -40,7 +40,7 @@ const PrivateProfil = () => {
         alt="profile Picture"
       />
       <h1>{name}</h1>
-      <p className="private__email">{email}</p>
+      {/* <p className="private__email">{email}</p> */}
       <ul className="history__list">
         <h2 className="history__h2">Orderhistorik</h2>
         {orderHistory.map((item, index) => {

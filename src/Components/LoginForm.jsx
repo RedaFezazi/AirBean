@@ -28,7 +28,8 @@ const LoginForm = () => {
         setTimeout(() => setFailedSignupMsg(""), 3000);
       } else {
         setToken(response.data.token);
-        console.log(response.data.token);
+        localStorage.setItem("token", response.data.token);
+        console.log("hej");
       }
     } catch (error) {
       console.error(error);
@@ -53,11 +54,11 @@ const LoginForm = () => {
           <p className="loginError">{failedSignupMsg}</p>
         </section>
         <section className="profile__section">
-          <label htmlFor="eMail">Epost</label>
+          <label htmlFor="eMail">Password</label>
           <input
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            type="email"
+            type="password"
             name="eMail"
             id="eMail"
             required

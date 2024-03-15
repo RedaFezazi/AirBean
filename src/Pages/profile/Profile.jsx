@@ -23,7 +23,7 @@ const Profile = () => {
           className="loggaUt"
           onClick={() => {
             setOrderHistory([]);
-
+            localStorage.clear();
             setToken("");
             navigate("/");
           }}

@@ -53,13 +53,14 @@ const SignUpForm = () => {
           <p className="signupNameError">{failedSignupMsg}</p>
         </section>
         <section className="profile__section">
-          <label htmlFor="eMail">Epost</label>
+          <label htmlFor="eMail">Password</label>
           <input
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            type="email"
+            type="password"
             name="eMail"
             id="eMail"
+            minLength={5}
             required
           />
         </section>
